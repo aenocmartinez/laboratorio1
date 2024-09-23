@@ -6,32 +6,32 @@ class UserDto:
         self.password = None
         self.active = None
 
-    def setID(self, id): 
+    def setID(self, id):
         self.id = id
 
-    def getID(self): 
+    def getID(self):
         return self.id
 
-    def setName(self, name): 
+    def setName(self, name):
         self.name = name
 
-    def getName(self): 
+    def getName(self):
         return self.name
 
-    def setEmail(self, email): 
+    def setEmail(self, email):
         self.email = email
 
-    def getEmail(self): 
+    def getEmail(self):
         return self.email
 
-    def setPassword(self, password): 
+    def setPassword(self, password):
         self.password = password
 
-    def getPassword(self): 
+    def getPassword(self):
         return self.password
 
-    def setActive(self, active): 
-        self.active = active        
+    def setActive(self, active):
+        self.active = active
 
-    def isActive(self): 
-        return self.active 
+    def isActive(self):
+        return self.active
